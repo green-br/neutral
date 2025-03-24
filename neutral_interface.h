@@ -1,7 +1,7 @@
 #pragma once
 
-#include "../mesh.h"
-#include "../shared_data.h"
+#include "arch/mesh.h"
+#include "arch/shared_data.h"
 #include "neutral_data.h"
 
 #ifdef __cplusplus

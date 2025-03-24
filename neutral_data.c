@@ -1,7 +1,7 @@
 #include "neutral_data.h"
-#include "../params.h"
-#include "../profiler.h"
-#include "../shared.h"
+#include "arch/params.h"
+#include "arch/profiler.h"
+#include "arch/shared.h"
 #include "neutral_interface.h"
 #include <math.h>
 #include <stdio.h>

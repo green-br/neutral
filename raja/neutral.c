@@ -1,9 +1,9 @@
 #include "neutral.h"
-#include "../../comms.h"
-#include "../../params.h"
+#include "../arch/comms.h"
+#include "../arch/params.h"
 #include "../../raja/shared.h"
-#include "../../shared.h"
-#include "../../shared_data.h"
+#include "../arch/shared.h"
+#include "../arch/shared_data.h"
 #include "../neutral_interface.h"
 #include "pcg_variants.h"
 #include <assert.h>

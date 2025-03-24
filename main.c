@@ -1,8 +1,8 @@
-#include "../comms.h"
-#include "../mesh.h"
-#include "../params.h"
-#include "../profiler.h"
-#include "../shared_data.h"
+#include "arch/comms.h"
+#include "arch/mesh.h"
+#include "arch/params.h"
+#include "arch/profiler.h"
+#include "arch/shared_data.h"
 #include "neutral_interface.h"
 #include <math.h>
 #include <omp.h>
