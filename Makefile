@@ -54,8 +54,8 @@ endif
 ARCH_LINKER    		= $(ARCH_COMPILER_CC)
 ARCH_FLAGS     		= $(CFLAGS_$(COMPILER)) $(OPTIONS)
 ARCH_LDFLAGS   		= $(ARCH_FLAGS) -lm
-ARCH_BUILD_DIR 		= ../obj/neutral/
-ARCH_DIR       		= ..
+ARCH_BUILD_DIR 		= arch/obj/neutral/
+ARCH_DIR       		= arch
 
 ifeq ($(KERNELS), cuda)
   include Makefile.cuda
